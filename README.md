@@ -128,8 +128,10 @@ Dual-path feature fusion layer
 Multi-layer fully connected classifier
 HIFF Structure:
 
-EfficientNet-B0 --> FC(1000->64) --→ \r
-                                      Concat --> FC(128->3)\r
+EfficientNet-B0 --> FC(1000->64) --→  
+
+                                      Concat --> FC(128->3)  
+                                      
 Texture Features --> FC(3->64)   --→
 
 
