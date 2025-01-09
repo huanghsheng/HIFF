@@ -98,8 +98,9 @@ Feature CSV file generation
 
 ### 3. Model Training
 Run the training script:
-
+```python
 python train.py
+```
 
 Training outputs:
 
@@ -114,9 +115,10 @@ Best model saved as best_train_model.pth
 Final model saved as final_model.pth
 
 ### 4. Moedel Testing
-Run the testting script:
-
+Run the testing script:
+```python
 python test.py
+```
 
 ### 5. Model Architecture
 HIFF  model includes:
