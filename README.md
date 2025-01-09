@@ -5,10 +5,15 @@ Rice Blast Disease Detection System for Rice Seedlings Based on Hybrid Image Fea
 
 ## Project Structure
 
+
 ├── config.py        # Configuration parameters
+
 ├── dataset.py       # Dataset loading and processing
+
 ├── model.py         # HIFF model definition
+
 ├── train.py         # Training script
+
 └── utils.py         # Utility functions
 
 
