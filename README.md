@@ -117,10 +117,9 @@ Texture Features --> FC(3->64) --→
 
 Citation
 If you use this code in your research, please cite:
-@article{HIFF2025,
+@article{
   title={Hybrid integrated feature fusion of handcrafted and deep features for rice blast resistance identification using UAV imagery},
   author={Peng Zhang, Zibin Zhou, Huasheng Huang, Yuanzhu Yang, Xiaochun Hu, Jiajun Zhuang, and Yu Tang},
-  year={2025}
 }
 License
 MIT License
