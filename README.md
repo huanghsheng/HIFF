@@ -82,7 +82,7 @@ CLASS_WEIGHTS = [2, 4, 6]
 TRAIN_TEST_SPLIT = [0.7, 0.3]
 
 
-###2. Data Processing
+### 2. Data Processing
 The system automatically processes:
 
 Original and CLAHE enhanced images
