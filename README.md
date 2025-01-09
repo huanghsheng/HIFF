@@ -82,13 +82,13 @@ CLASS_WEIGHTS = [2, 4, 6]
 TRAIN_TEST_SPLIT = [0.7, 0.3]
 
 
-2. Data Processing
+###2. Data Processing
 The system automatically processes:
 
 Original and CLAHE enhanced images
 Haralick texture feature extraction
 Feature CSV file generation
-3. Model Training
+###3. Model Training
 Run the training script:
 
 python train.py
@@ -114,23 +114,7 @@ EfficientNet-B0 --> FC(1000->64) --→
                                     Concat --> FC(128->3)
 Texture Features --> FC(3->64) --→
 
-Performance Optimization
-CLAHE image enhancement
-Weighted cross-entropy loss implementation
-Step-wise learning rate adjustment
-Automatic best model saving
-Custom Dataset
-The CustomDataset class supports:
 
-Multimodal data loading
-Real-time data augmentation
-Batch processing
-Feature fusion
-Important Notes
-Ensure correct dataset formatting
-Monitor GPU memory usage during training
-Adjust class weights according to specific needs
-CUDA acceleration recommended for training
 Citation
 If you use this code in your research, please cite:
 @article{HIFF2025,
@@ -148,5 +132,4 @@ Submit an Issue
 Email: huanghsheng@gpnu.edu.cn
 
 
-You can directly copy this content and save it as README.md. Remember to modify relevant information such as contact details and author information according to your needs.
 
