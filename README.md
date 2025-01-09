@@ -34,16 +34,27 @@ The dataset should be organized as follows:
 
 
 data/
+
 ├── 606_pro/            # Original images
+
 │   ├── 0.png
+
 │   ├── 1.png
+
 │   └── ...
+
 ├── 606_pro_CLAHE_1/    # CLAHE enhanced images
+
 │   ├── 0.png
+
 │   ├── 1.png
+
 │   └── ...
+
 ├── train_3_pro.xlsx    # Training labels file
+
 └── texture_features.csv # Texture features file (auto-generated)
+
 
 
 ## Key Features
