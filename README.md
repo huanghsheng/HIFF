@@ -68,6 +68,11 @@ data/
 
 ## Usage Guide
 
+Data can be accessed via the following methods:
+Baidu Netdisk Link: https://pan.baidu.com/s/1W741HDfeiR9be7PXzF5zng?pwd=0zp9
+Access Code: 0zp9
+
+
 ### 1. Configuration
 
 Set key parameters in `config.py`:
@@ -81,15 +86,17 @@ GAMMA = 0.5
 CLASS_WEIGHTS = [2, 4, 6]
 TRAIN_TEST_SPLIT = [0.7, 0.3]
 
+```
 
-
-#### 2. Data Processing
+### 2. Data Processing
 The system automatically processes:
 
 Original and CLAHE enhanced images
 Haralick texture feature extraction
 Feature CSV file generation
-###3. Model Training
+
+
+### 3. Model Training
 Run the training script:
 
 python train.py
@@ -100,12 +107,19 @@ Loss value per epoch
 Accuracy
 Recall
 F1 score
+
 Model saving:
 
 Best model saved as best_train_model.pth
 Final model saved as final_model.pth
-Model Architecture
-HIFF (Hybrid Image Feature Fusion) model includes:
+
+### 4. Moedel Testing
+Run the testting script:
+
+python test.py
+
+### 5. Model Architecture
+HIFF  model includes:
 
 EfficientNet-B0 backbone
 Dual-path feature fusion layer
@@ -132,6 +146,3 @@ Submit an Issue
 Email: huanghsheng@gpnu.edu.cn
 
 
-Data can be accessed via the following methods:
-Baidu Netdisk Link: https://pan.baidu.com/s/1W741HDfeiR9be7PXzF5zng?pwd=0zp9
-Access Code: 0zp9
