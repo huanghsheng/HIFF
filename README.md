@@ -127,9 +127,12 @@ EfficientNet-B0 backbone
 Dual-path feature fusion layer
 Multi-layer fully connected classifier
 HIFF Structure:
+
 EfficientNet-B0 --> FC(1000->64) --→ 
-                                    Concat --> FC(128->3)
-Texture Features --> FC(3->64) --→
+
+                                      Concat --> FC(128->3)
+                                    
+Texture Features --> FC(3->64)   --→
 
 
 Citation
