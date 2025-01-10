@@ -68,7 +68,7 @@ data/
 
 ## Usage Guide
 
-Data can be accessed via the following methods:
+Data and the pretrained weights of the model can be accessed via the following methods:
 Baidu Netdisk Link: https://pan.baidu.com/s/1W741HDfeiR9be7PXzF5zng?pwd=0zp9
 Access Code: 0zp9
 
