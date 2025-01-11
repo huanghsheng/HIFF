@@ -69,9 +69,16 @@ data/
 ## Usage Guide
 
 Data and the pretrained weights of the model can be accessed via the following methods:
-Baidu Netdisk Link: https://pan.baidu.com/s/1W741HDfeiR9be7PXzF5zng?pwd=0zp9
-Access Code: 0zp9
 
+Link of the data: https://anxia.com/s/swh5xl73wqv?password=cca6&#
+data.zip
+
+Access Code: cca6
+
+Link of the pretrained weights: https://anxia.com/s/swh5xlq3wqv?password=d456&#
+HIFF.pth
+
+Access Code: d456
 
 ### 1. Configuration
 
