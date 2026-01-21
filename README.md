@@ -70,8 +70,7 @@ data/
 
 Data and the pretrained weights of the model can be accessed via the following methods:
 
-Link of the data: https://anxia.com/s/swh5xl73wqv?password=cca6&#
-data.zip
+Link of the data: https://anxia.com/s/swh5xl73wqv?password=cca6&#data.zip
 
 Access Code: cca6
 
